@@ -1,5 +1,5 @@
 # cs-desafio-android
-Construir um App que liste os repositórios Java do Github e mostre seus detalhes ao abrir-los.
+Construir um App que liste os repositórios Java do Github e mostre seus detalhes ao abri-los.
 
 Imagens do App
 ![Captura de tela de 2015-10-22 11-28-03.png](https://github.com/cs-raphael-bernardo/cs-desafio-android/blob/master/Screenshot_20161111-004105.png?raw=true)
