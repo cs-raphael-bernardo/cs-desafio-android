@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BotaoArredondado">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/effect_button_press</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+
+    <style name="WhiteRectangularSelectorEffect">
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+</resources>

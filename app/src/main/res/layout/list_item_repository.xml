@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="120sp"
+    android:weightSum="1"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:background="?attr/selectableItemBackground"
+    android:id="@+id/repository_item">
+
+    <TextView
+        android:id="@+id/load_more"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textSize="14sp"
+        android:ellipsize="end"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:layout_weight="1"
+        style="@style/BotaoArredondado"
+        android:text="Carregar mais"
+        android:visibility="gone"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_height="35sp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:id="@+id/block_1">
+
+        <TextView
+            android:text="Nome Repositório"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/repositorio_nome"
+            android:textColor="@color/desafio_azul_titulo"
+            android:textStyle="bold"
+            android:maxLines="1" />
+
+        <TextView
+            android:text="Descrição do repositíriom este texto deve ser subsituído pelos valores que vem da API."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/repositorio_descricao"
+            android:textSize="12sp"
+            android:maxLines="2" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15sp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:text="&#xf126;"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/desafio_dourado"
+                android:id="@+id/ic_forks" />
+
+            <TextView
+                android:text="000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/repository_fork_number"
+                android:layout_marginLeft="10sp"
+                android:textColor="@color/desafio_dourado"
+                android:textStyle="bold" />
+
+            <TextView
+                android:text="&#xf005;"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30sp"
+                android:textColor="@color/desafio_dourado"
+                android:textStyle="bold"
+                android:id="@+id/ic_stars" />
+
+            <TextView
+                android:text="000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/repository_star_number"
+                android:layout_marginLeft="10sp"
+                android:textColor="@color/desafio_dourado"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.7"
+        android:gravity="center_horizontal"
+        android:id="@+id/block_2">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/ic_launcher"
+            android:id="@+id/repository_profile_image" />
+
+        <TextView
+            android:text="username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/repository_user_name"
+            android:layout_marginTop="5sp"
+            android:textSize="12sp"
+            android:textColor="@color/desafio_azul_titulo"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:text="Nome e Sobrenome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/repository_full_name"
+            android:textSize="11sp"
+            android:layout_marginTop="2sp"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</LinearLayout>
