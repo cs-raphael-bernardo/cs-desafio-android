@@ -1,4 +1,10 @@
-<<<<<<< HEAD
+# cs-desafio-android
+Construir um App que liste os repositórios Java do Github e mostre seus detalhes ao abrir-los.
+
+Imagens do App
+![Captura de tela de 2015-10-22 11-28-03.png](https://github.com/cs-raphael-bernardo/cs-desafio-android/blob/master/Screenshot_20161111-004105.png?raw=true)
+![Captura de tela de 2015-10-22 11-28-03.png](https://github.com/cs-raphael-bernardo/cs-desafio-android/blob/master/Screenshot_20161111-192354.png?raw=true)
+
 # Criar um aplicativo de consulta a API do [GitHub](https://github.com)#
 
 Criar um aplicativo para consultar a [API do GitHub](https://developer.github.com/v3/) e trazer os repositórios mais populares de Java. Basear-se no mockup fornecido:
@@ -58,6 +64,3 @@ Se possível deixar o fork público para facilitar a inspeção do código.
 ### **ATENÇÃO** ###
 
 Não se deve tentar fazer o PUSH diretamente para ESTE repositório!
-
-# cs-desafio-android
-Construir um App que liste os repositórios Java do Github e mostre seus detalhes ao abrir-los.
